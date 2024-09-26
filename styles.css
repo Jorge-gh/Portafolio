@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #999999;
+}
+
+.hero {
+    height: 100vh;
+    background-image: url(./img/fondo.jpg);
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+}
+
+#about {
+    padding: 2rem;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#about img {
+    width: 150px;
+    border-radius: 50%;
+    transition: transform .5s ease;
+}
+
+#about img:hover {
+    width: 150px;
+    border-radius: 50%;
+    transform: scale(1.1);
+}
+
+.portfolio-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+#fotoProyecto {
+    width: 500px;
+    border-radius: 50px;
+    transition: transform .5s ease;
+}
+
+#fotoProyecto:hover {
+    transform: scale(1.1);
+}
+
+#portfolio {
+    margin-top: 70px;
+    text-align: center;
+}
+
+#contact {
+    margin-top: 70px;
+    background-color: #f4f4f4F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+button {
+    background-color: #808080;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #696969;
+    transform: scale(1.05);
+}
+
+#formFinal{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+}
+
+.projectos1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.projectos2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.inputForm{
+    width: 200px;
+    height: 25px;
+    border: none;
+    border-bottom: solid 1px black;
+    padding: 10px;
+}
+
+#message{
+    width: 200px;
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#botonSub{
+    margin: 20px;
+}
+
+#contact h2{
+    font-size: 55px;
+}
+
+
+.inputForm {
+    outline: none;
+}
