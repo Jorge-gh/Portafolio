@@ -50,6 +50,11 @@ nav ul li a:hover {
 
 .hero-text h1 {
     font-size: 3rem;
+    color: black;
+}
+
+.hero-text p{
+    color: black;
 }
 
 #about {
